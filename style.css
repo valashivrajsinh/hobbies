@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centeredmusic
+{
+  text-shadow: 0px 0px 5px rgb(0, 251, 255),0px 0px 10px rgb(0, 251, 255),0px 0px 40px rgb(0, 251, 255);
+  font-size:450% ;
+  position: absolute;
+  top: 45%;
+  left: 65.4%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredgame
+{
+  
+  text-shadow: 0px 0px 10px rgb(0, 0, 0), 0px 0px 40px rgb(0, 0, 0),0px 0px 5px rgb(0, 0, 0);
+  font-size:500% ;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.centered
+{
+  text-shadow: 0px 0px 10px rgb(255, 255, 255),0px 0px 5px rgb(255, 255, 255);
+  color: black;
+  font-size:500% ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text
+{
+color: black;
+font-size: 500%;
+position: absolute;
+top: 28%;
+left: 35%;
+
+}
+
+a.one:link
+{
+  color: white;
+  text-decoration: none;
+}
+a.one:visited
+{
+color: white;
+  text-decoration: none;
+}
+a.two:link
+{
+color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a.two:visited
+{
+color: black;
+text-decoration: none;
+}
+a.three:link,:visited
+{
+  color: black;
+  text-decoration: none;
+}
